@@ -3,6 +3,6 @@ project(Navek)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCE_FILES main.cpp HttpHeader.cpp HttpHeader.h HttpHeaderParser.cpp HttpHeaderParser.h ExecutionTimer.h)
+set(SOURCE_FILES main.cpp HttpHeader.cpp HttpHeader.h HttpHeaderParser.cpp HttpHeaderParser.h)
 
 add_executable(Navek ${SOURCE_FILES})

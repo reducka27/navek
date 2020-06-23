@@ -44,7 +44,6 @@ HttpHeader HttpHeaderParser::parse(std::string_view header_str) {
             isFirstLine = false;
         }
     }
-    std::cout << url << std::endl;
     return HttpHeader(requestType, url, std::move(m));
 }
 
